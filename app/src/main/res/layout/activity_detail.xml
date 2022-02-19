@@ -9,7 +9,7 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="240dp"
+        android:layout_height="@dimen/_210sdp"
         android:background="@drawable/ic_launcher_background"/>
 
     <ScrollView
@@ -22,27 +22,27 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Shop Name"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
                     android:textStyle="bold"
-                    android:textSize="20dp"/>
+                    android:textSize="@dimen/_20sdp"/>
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Shop Category"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="20dp"
-                    android:textSize="18dp"/>
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:textSize="@dimen/_18sdp"/>
 
 
                 <LinearLayout
@@ -50,9 +50,9 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_gravity="center"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:layout_marginRight="@dimen/_20sdp"
                     android:gravity="center">
 
 
@@ -67,14 +67,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:drawableStart="@drawable/email_id"
-                        android:layout_marginLeft="20dp"/>
+                        android:layout_marginLeft="@dimen/_20sdp"/>
 
                     <TextView
                         android:id="@+id/di"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:drawableStart="@drawable/address"
-                        android:layout_marginLeft="20dp"/>
+                        android:layout_marginLeft="@dimen/_20sdp"/>
 
 
 
@@ -82,22 +82,22 @@
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_marginTop="10dp"
-                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_height="@dimen/_1sdp"
                     android:background="@color/black"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Rate This"
-                    android:layout_marginLeft="20dp"
-                    android:textSize="20dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:textSize="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
                     android:textStyle="bold"/>
 
                 <RatingBar
-                    android:layout_marginTop="5dp"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_20sdp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:numStars="5"
@@ -105,8 +105,8 @@
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_marginTop="10dp"
-                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_height="@dimen/_1sdp"
                     android:background="@color/black"/>
 
                 <TextView
@@ -114,34 +114,34 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Full Address"
-                    android:drawablePadding="5dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="10dp"
-                    android:padding="5dp"
-                    android:textSize="16dp"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:textSize="@dimen/_16sdp"
                     android:drawableStart="@drawable/address"/>
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_marginTop="10dp"
-                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_height="@dimen/_1sdp"
                     android:background="@color/black"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Timing"
-                    android:drawablePadding="5dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="10dp"
-                    android:padding="5dp"
-                    android:textSize="16dp"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:textSize="@dimen/_16sdp"
                     android:drawableStart="@drawable/time"/>
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_marginTop="10dp"
-                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_height="@dimen/_1sdp"
                     android:background="@color/black"/>
 
                 <TextView
@@ -149,17 +149,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Email_Id"
-                    android:drawablePadding="5dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="10dp"
-                    android:padding="5dp"
-                    android:textSize="16dp"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:textSize="@dimen/_16sdp"
                     android:drawableStart="@drawable/email_id"/>
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_marginTop="10dp"
-                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_height="@dimen/_1sdp"
                     android:background="@color/black"/>
 
                 <TextView
@@ -167,11 +167,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Phone No."
-                    android:drawablePadding="5dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="10dp"
-                    android:padding="5dp"
-                    android:textSize="16dp"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:textSize="@dimen/_16sdp"
                     android:drawableStart="@drawable/phone"/>
 
             </LinearLayout>

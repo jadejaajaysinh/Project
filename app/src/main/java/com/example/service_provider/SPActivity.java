@@ -10,7 +10,7 @@ import android.view.View;
 public class SPActivity extends AppCompatActivity
 {
 
-    CardView c1,c2,c3,c4;
+    CardView c1,c2,c3,c4,c5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -22,6 +22,7 @@ public class SPActivity extends AppCompatActivity
         c2=findViewById(R.id.sc2);
         c3=findViewById(R.id.sc3);
         c4=findViewById(R.id.sc4);
+        c5=findViewById(R.id.sc5);
 
         c1.setOnClickListener(new View.OnClickListener()
         {
@@ -67,6 +68,18 @@ public class SPActivity extends AppCompatActivity
 
                 Intent i4 = new Intent(SPActivity.this,Detail.class);
                 startActivity(i4);
+
+            }
+        });
+
+        c5.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+
+                Intent i5 = new Intent(SPActivity.this,Detail.class);
+                startActivity(i5);
 
             }
         });

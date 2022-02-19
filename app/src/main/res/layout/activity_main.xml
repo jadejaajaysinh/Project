@@ -29,14 +29,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/_10sdp"
                     android:gravity="center">
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/cdv1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="5dp">
+                        android:layout_marginLeft="@dimen/_7sdp"
+                        android:layout_marginRight="@dimen/_4sdp">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -45,11 +46,11 @@
 
                             <ImageView
                                 android:id="@+id/imageview"
-                                android:layout_width="140dp"
-                                android:layout_height="150dp"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginTop="20dp"
-                                android:layout_marginRight="20dp"
+                                android:layout_width="@dimen/_110sdp"
+                                android:layout_height="@dimen/_110sdp"
+                                android:layout_marginLeft="@dimen/_15sdp"
+                                android:layout_marginTop="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_15sdp"
                                 android:src="@drawable/ic_launcher_background"/>
 
                             <TextView
@@ -58,7 +59,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="Image"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_15sdp"
                                 android:textStyle="bold"/>
 
                         </LinearLayout>
@@ -69,8 +70,8 @@
                         android:id="@+id/cdv2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginLeft="5dp">
+                        android:layout_marginRight="@dimen/_7sdp"
+                        android:layout_marginLeft="@dimen/_4sdp">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -79,20 +80,20 @@
 
                             <ImageView
                                 android:id="@+id/imageview2"
-                                android:layout_width="140dp"
-                                android:layout_height="150dp"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginTop="20dp"
-                                android:layout_marginRight="20dp"
+                                android:layout_width="@dimen/_110sdp"
+                                android:layout_height="@dimen/_110sdp"
+                                android:layout_marginLeft="@dimen/_15sdp"
+                                android:layout_marginTop="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_15sdp"
                                 android:src="@drawable/ic_launcher_background"/>
 
                             <TextView
-                                android:id="@+id/textview"
+                                android:id="@+id/textview2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="Image"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_15sdp"
                                 android:textStyle="bold"/>
 
                         </LinearLayout>
@@ -102,18 +103,19 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/l2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginTop="10dp">
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:gravity="center">
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/cdv3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="5dp">
+                        android:layout_marginLeft="@dimen/_7sdp"
+                        android:layout_marginRight="@dimen/_4sdp">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -122,20 +124,20 @@
 
                             <ImageView
                                 android:id="@+id/imageview3"
-                                android:layout_width="140dp"
-                                android:layout_height="150dp"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginTop="20dp"
-                                android:layout_marginRight="20dp"
+                                android:layout_width="@dimen/_110sdp"
+                                android:layout_height="@dimen/_110sdp"
+                                android:layout_marginLeft="@dimen/_15sdp"
+                                android:layout_marginTop="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_15sdp"
                                 android:src="@drawable/ic_launcher_background"/>
 
                             <TextView
-                                android:id="@+id/textview"
+                                android:id="@+id/textview3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="Image"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_15sdp"
                                 android:textStyle="bold"/>
 
                         </LinearLayout>
@@ -146,8 +148,8 @@
                         android:id="@+id/cdv4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginRight="10dp">
+                        android:layout_marginRight="@dimen/_7sdp"
+                        android:layout_marginLeft="@dimen/_4sdp">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -156,20 +158,20 @@
 
                             <ImageView
                                 android:id="@+id/imageview4"
-                                android:layout_width="140dp"
-                                android:layout_height="150dp"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginTop="20dp"
-                                android:layout_marginRight="20dp"
+                                android:layout_width="@dimen/_110sdp"
+                                android:layout_height="@dimen/_110sdp"
+                                android:layout_marginLeft="@dimen/_15sdp"
+                                android:layout_marginTop="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_15sdp"
                                 android:src="@drawable/ic_launcher_background"/>
 
                             <TextView
-                                android:id="@+id/textview"
+                                android:id="@+id/textview4"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="Image"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_15sdp"
                                 android:textStyle="bold"/>
 
                         </LinearLayout>
@@ -179,18 +181,19 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/l3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
                     android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginTop="10dp">
+                    android:gravity="center">
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/cdv5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="5dp">
+                        android:layout_marginLeft="@dimen/_7sdp"
+                        android:layout_marginRight="@dimen/_4sdp">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -199,11 +202,11 @@
 
                             <ImageView
                                 android:id="@+id/imageview5"
-                                android:layout_width="140dp"
-                                android:layout_height="150dp"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginTop="20dp"
-                                android:layout_marginRight="20dp"
+                                android:layout_width="@dimen/_110sdp"
+                                android:layout_height="@dimen/_110sdp"
+                                android:layout_marginLeft="@dimen/_15sdp"
+                                android:layout_marginTop="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_15sdp"
                                 android:src="@drawable/ic_launcher_background"/>
 
                             <TextView
@@ -212,7 +215,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="Image"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_15sdp"
                                 android:textStyle="bold"/>
 
                         </LinearLayout>
@@ -223,8 +226,8 @@
                         android:id="@+id/cdv6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginRight="10dp">
+                        android:layout_marginRight="@dimen/_7sdp"
+                        android:layout_marginLeft="@dimen/_4sdp">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -233,11 +236,11 @@
 
                             <ImageView
                                 android:id="@+id/imageview6"
-                                android:layout_width="140dp"
-                                android:layout_height="150dp"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginTop="20dp"
-                                android:layout_marginRight="20dp"
+                                android:layout_width="@dimen/_110sdp"
+                                android:layout_height="@dimen/_110sdp"
+                                android:layout_marginLeft="@dimen/_15sdp"
+                                android:layout_marginTop="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_15sdp"
                                 android:src="@drawable/ic_launcher_background"/>
 
                             <TextView
@@ -246,7 +249,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="Image"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_15sdp"
                                 android:textStyle="bold"/>
 
                         </LinearLayout>
@@ -256,18 +259,19 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/l4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
                     android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginTop="10dp">
+                    android:gravity="center">
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/cdv7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="5dp">
+                        android:layout_marginLeft="@dimen/_7sdp"
+                        android:layout_marginRight="@dimen/_4sdp">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -276,11 +280,11 @@
 
                             <ImageView
                                 android:id="@+id/imageview7"
-                                android:layout_width="140dp"
-                                android:layout_height="150dp"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginTop="20dp"
-                                android:layout_marginRight="20dp"
+                                android:layout_width="@dimen/_110sdp"
+                                android:layout_height="@dimen/_110sdp"
+                                android:layout_marginLeft="@dimen/_15sdp"
+                                android:layout_marginTop="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_15sdp"
                                 android:src="@drawable/ic_launcher_background"/>
 
                             <TextView
@@ -289,7 +293,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="Image"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_15sdp"
                                 android:textStyle="bold"/>
 
                         </LinearLayout>
@@ -300,8 +304,8 @@
                         android:id="@+id/cdv8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginRight="10dp">
+                        android:layout_marginRight="@dimen/_7sdp"
+                        android:layout_marginLeft="@dimen/_4sdp">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -310,11 +314,11 @@
 
                             <ImageView
                                 android:id="@+id/imageview8"
-                                android:layout_width="140dp"
-                                android:layout_height="150dp"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginTop="20dp"
-                                android:layout_marginRight="20dp"
+                                android:layout_width="@dimen/_110sdp"
+                                android:layout_height="@dimen/_110sdp"
+                                android:layout_marginLeft="@dimen/_15sdp"
+                                android:layout_marginTop="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_15sdp"
                                 android:src="@drawable/ic_launcher_background"/>
 
                             <TextView
@@ -323,7 +327,85 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="Image"
-                                android:textSize="20dp"
+                                android:textSize="@dimen/_15sdp"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/l5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cdv9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_7sdp"
+                        android:layout_marginRight="@dimen/_4sdp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageview9"
+                                android:layout_width="@dimen/_110sdp"
+                                android:layout_height="@dimen/_110sdp"
+                                android:layout_marginLeft="@dimen/_15sdp"
+                                android:layout_marginTop="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_15sdp"
+                                android:src="@drawable/ic_launcher_background"/>
+
+                            <TextView
+                                android:id="@+id/textview9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="Image"
+                                android:textSize="@dimen/_15sdp"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cdv10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/_7sdp"
+                        android:layout_marginLeft="@dimen/_4sdp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageview10"
+                                android:layout_width="@dimen/_110sdp"
+                                android:layout_height="@dimen/_110sdp"
+                                android:layout_marginLeft="@dimen/_15sdp"
+                                android:layout_marginTop="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_15sdp"
+                                android:src="@drawable/ic_launcher_background"/>
+
+                            <TextView
+                                android:id="@+id/textview10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="Image"
+                                android:textSize="@dimen/_15sdp"
                                 android:textStyle="bold"/>
 
                         </LinearLayout>

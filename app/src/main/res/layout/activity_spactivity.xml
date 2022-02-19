@@ -29,11 +29,12 @@
                     <androidx.cardview.widget.CardView
                         android:id="@+id/sc1"
                         android:layout_width="match_parent"
-                        android:layout_height="210dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_10sdp"
                         android:backgroundTint="#FAB0B0"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp">
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -46,72 +47,73 @@
                                 android:orientation="horizontal">
 
                             <ImageView
-                                android:layout_width="110dp"
-                                android:layout_height="140dp"
-                                android:layout_marginLeft="10dp"
-                                android:layout_marginTop="10dp"
+                                android:layout_width="@dimen/_110sdp"
+                                android:layout_height="@dimen/_110sdp"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_18sdp"
                                 android:src="@drawable/ic_launcher_background"/>
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:orientation="vertical"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="5dp">
+                                    android:layout_marginLeft="@dimen/_5sdp"
+                                    android:layout_marginRight="@dimen/_5sdp">
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:text="Shop Name"
                                         android:textStyle="bold"
-                                        android:textSize="20dp"
-                                        android:layout_marginTop="5dp"/>
+                                        android:textSize="@dimen/_20sdp"
+                                        android:layout_marginTop="@dimen/_5sdp"/>
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:text="Category"
                                         android:drawableStart="@drawable/category"
-                                        android:padding="5dp"
-                                        android:drawablePadding="5dp"
-                                        android:textSize="16dp"
-                                        android:layout_marginTop="10dp"/>
+                                        android:padding="@dimen/_5sdp"
+                                        android:drawablePadding="@dimen/_3sdp"
+                                        android:textSize="@dimen/_16sdp"
+                                        android:layout_marginTop="@dimen/_8sdp"/>
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:text="Mobile No"
                                         android:drawableStart="@drawable/phone"
-                                        android:padding="5dp"
-                                        android:drawablePadding="5dp"
-                                        android:textSize="16dp"
-                                        android:layout_marginTop="5dp"/>
+                                        android:padding="@dimen/_5sdp"
+                                        android:drawablePadding="@dimen/_3sdp"
+                                        android:textSize="@dimen/_16sdp"
+                                        android:layout_marginTop="@dimen/_3sdp"/>
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:text="Email"
                                         android:drawableStart="@drawable/email_id"
-                                        android:padding="5dp"
-                                        android:drawablePadding="5dp"
-                                        android:textStyle="bold"
-                                        android:textSize="16dp"
-                                        android:layout_marginTop="5dp"/>
+                                        android:padding="@dimen/_5sdp"
+                                        android:drawablePadding="@dimen/_3sdp"
+                                        android:textSize="@dimen/_16sdp"
+                                        android:layout_marginTop="@dimen/_3sdp"/>
 
                                 </LinearLayout>
 
                             </LinearLayout>
 
                            <TextView
-                               android:layout_marginTop="10dp"
-                               android:layout_marginRight="10dp"
-                               android:layout_marginLeft="10dp"
+                               android:layout_marginTop="@dimen/_5sdp"
+                               android:layout_marginBottom="@dimen/_10sdp"
+                               android:layout_marginRight="@dimen/_10sdp"
+                               android:layout_marginLeft="@dimen/_10sdp"
                                android:layout_width="match_parent"
                                android:layout_height="match_parent"
                                android:text="Full Address"
                                android:drawableStart="@drawable/address"
-                               android:padding="5dp"
-                               android:drawablePadding="5dp"/>
+                               android:textSize="@dimen/_16sdp"
+                               android:padding="@dimen/_5sdp"
+                               android:drawablePadding="@dimen/_5sdp"/>
 
                         </LinearLayout>
 
@@ -120,11 +122,12 @@
                     <androidx.cardview.widget.CardView
                         android:id="@+id/sc2"
                         android:layout_width="match_parent"
-                        android:layout_height="210dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_10sdp"
                         android:backgroundTint="#FAB0B0"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp">
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -137,72 +140,72 @@
                                 android:orientation="horizontal">
 
                                 <ImageView
-                                    android:layout_width="110dp"
-                                    android:layout_height="140dp"
-                                    android:layout_marginLeft="10dp"
-                                    android:layout_marginTop="10dp"
+                                    android:layout_width="@dimen/_110sdp"
+                                    android:layout_height="@dimen/_110sdp"
+                                    android:layout_marginLeft="@dimen/_10sdp"
+                                    android:layout_marginTop="@dimen/_18sdp"
                                     android:src="@drawable/ic_launcher_background"/>
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:orientation="vertical"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="5dp">
+                                    android:layout_marginLeft="@dimen/_5sdp"
+                                    android:layout_marginRight="@dimen/_5sdp">
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:text="Shop Name"
                                         android:textStyle="bold"
-                                        android:textSize="20dp"
-                                        android:layout_marginTop="5dp"/>
+                                        android:textSize="@dimen/_20sdp"
+                                        android:layout_marginTop="@dimen/_5sdp"/>
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:text="Category"
                                         android:drawableStart="@drawable/category"
-                                        android:padding="5dp"
-                                        android:drawablePadding="5dp"
-                                        android:textSize="16dp"
-                                        android:layout_marginTop="10dp"/>
+                                        android:padding="@dimen/_5sdp"
+                                        android:drawablePadding="@dimen/_3sdp"
+                                        android:textSize="@dimen/_16sdp"
+                                        android:layout_marginTop="@dimen/_8sdp"/>
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:text="Mobile No"
                                         android:drawableStart="@drawable/phone"
-                                        android:padding="5dp"
-                                        android:drawablePadding="5dp"
-                                        android:textSize="16dp"
-                                        android:layout_marginTop="5dp"/>
+                                        android:padding="@dimen/_5sdp"
+                                        android:drawablePadding="@dimen/_3sdp"
+                                        android:textSize="@dimen/_16sdp"
+                                        android:layout_marginTop="@dimen/_3sdp"/>
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:text="Email"
                                         android:drawableStart="@drawable/email_id"
-                                        android:padding="5dp"
-                                        android:drawablePadding="5dp"
-                                        android:textStyle="bold"
-                                        android:textSize="16dp"
-                                        android:layout_marginTop="5dp"/>
+                                        android:padding="@dimen/_5sdp"
+                                        android:drawablePadding="@dimen/_3sdp"
+                                        android:textSize="@dimen/_16sdp"
+                                        android:layout_marginTop="@dimen/_3sdp"/>
 
                                 </LinearLayout>
 
                             </LinearLayout>
 
                             <TextView
-                                android:layout_marginTop="10dp"
-                                android:layout_marginRight="10dp"
-                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginBottom="@dimen/_10sdp"
+                                android:layout_marginRight="@dimen/_10sdp"
+                                android:layout_marginLeft="@dimen/_10sdp"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:text="Full Address"
                                 android:drawableStart="@drawable/address"
-                                android:padding="5dp"
-                                android:drawablePadding="5dp"/>
+                                android:padding="@dimen/_5sdp"
+                                android:drawablePadding="@dimen/_5sdp"/>
 
                         </LinearLayout>
 
@@ -211,11 +214,12 @@
                     <androidx.cardview.widget.CardView
                         android:id="@+id/sc3"
                         android:layout_width="match_parent"
-                        android:layout_height="210dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_10sdp"
                         android:backgroundTint="#FAB0B0"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp">
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -228,72 +232,72 @@
                                 android:orientation="horizontal">
 
                                 <ImageView
-                                    android:layout_width="110dp"
-                                    android:layout_height="140dp"
-                                    android:layout_marginLeft="10dp"
-                                    android:layout_marginTop="10dp"
+                                    android:layout_width="@dimen/_110sdp"
+                                    android:layout_height="@dimen/_110sdp"
+                                    android:layout_marginLeft="@dimen/_10sdp"
+                                    android:layout_marginTop="@dimen/_18sdp"
                                     android:src="@drawable/ic_launcher_background"/>
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:orientation="vertical"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="5dp">
+                                    android:layout_marginLeft="@dimen/_5sdp"
+                                    android:layout_marginRight="@dimen/_5sdp">
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:text="Shop Name"
                                         android:textStyle="bold"
-                                        android:textSize="20dp"
-                                        android:layout_marginTop="5dp"/>
+                                        android:textSize="@dimen/_20sdp"
+                                        android:layout_marginTop="@dimen/_5sdp"/>
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:text="Category"
                                         android:drawableStart="@drawable/category"
-                                        android:padding="5dp"
-                                        android:drawablePadding="5dp"
-                                        android:textSize="16dp"
-                                        android:layout_marginTop="10dp"/>
+                                        android:padding="@dimen/_5sdp"
+                                        android:drawablePadding="@dimen/_3sdp"
+                                        android:textSize="@dimen/_16sdp"
+                                        android:layout_marginTop="@dimen/_8sdp"/>
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:text="Mobile No"
                                         android:drawableStart="@drawable/phone"
-                                        android:padding="5dp"
-                                        android:drawablePadding="5dp"
-                                        android:textSize="16dp"
-                                        android:layout_marginTop="5dp"/>
+                                        android:padding="@dimen/_5sdp"
+                                        android:drawablePadding="@dimen/_3sdp"
+                                        android:textSize="@dimen/_16sdp"
+                                        android:layout_marginTop="@dimen/_3sdp"/>
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:text="Email"
                                         android:drawableStart="@drawable/email_id"
-                                        android:padding="5dp"
-                                        android:drawablePadding="5dp"
-                                        android:textStyle="bold"
-                                        android:textSize="16dp"
-                                        android:layout_marginTop="5dp"/>
+                                        android:padding="@dimen/_5sdp"
+                                        android:drawablePadding="@dimen/_3sdp"
+                                        android:textSize="@dimen/_16sdp"
+                                        android:layout_marginTop="@dimen/_3sdp"/>
 
                                 </LinearLayout>
 
                             </LinearLayout>
 
                             <TextView
-                                android:layout_marginTop="10dp"
-                                android:layout_marginRight="10dp"
-                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginBottom="@dimen/_10sdp"
+                                android:layout_marginRight="@dimen/_10sdp"
+                                android:layout_marginLeft="@dimen/_10sdp"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:text="Full Address"
                                 android:drawableStart="@drawable/address"
-                                android:padding="5dp"
-                                android:drawablePadding="5dp"/>
+                                android:padding="@dimen/_5sdp"
+                                android:drawablePadding="@dimen/_5sdp"/>
 
                         </LinearLayout>
 
@@ -302,11 +306,12 @@
                     <androidx.cardview.widget.CardView
                         android:id="@+id/sc4"
                         android:layout_width="match_parent"
-                        android:layout_height="210dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_5sdp"
                         android:backgroundTint="#FAB0B0"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp">
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -319,72 +324,164 @@
                                 android:orientation="horizontal">
 
                                 <ImageView
-                                    android:layout_width="110dp"
-                                    android:layout_height="140dp"
-                                    android:layout_marginLeft="10dp"
-                                    android:layout_marginTop="10dp"
+                                    android:layout_width="@dimen/_110sdp"
+                                    android:layout_height="@dimen/_110sdp"
+                                    android:layout_marginLeft="@dimen/_10sdp"
+                                    android:layout_marginTop="@dimen/_18sdp"
                                     android:src="@drawable/ic_launcher_background"/>
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:orientation="vertical"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="5dp">
+                                    android:layout_marginLeft="@dimen/_5sdp"
+                                    android:layout_marginRight="@dimen/_5sdp">
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:text="Shop Name"
                                         android:textStyle="bold"
-                                        android:textSize="20dp"
-                                        android:layout_marginTop="5dp"/>
+                                        android:textSize="@dimen/_20sdp"
+                                        android:layout_marginTop="@dimen/_5sdp"/>
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:text="Category"
                                         android:drawableStart="@drawable/category"
-                                        android:padding="5dp"
-                                        android:drawablePadding="5dp"
-                                        android:textSize="16dp"
-                                        android:layout_marginTop="10dp"/>
+                                        android:padding="@dimen/_5sdp"
+                                        android:drawablePadding="@dimen/_3sdp"
+                                        android:textSize="@dimen/_16sdp"
+                                        android:layout_marginTop="@dimen/_8sdp"/>
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:text="Mobile No"
                                         android:drawableStart="@drawable/phone"
-                                        android:padding="5dp"
-                                        android:drawablePadding="5dp"
-                                        android:textSize="16dp"
-                                        android:layout_marginTop="5dp"/>
+                                        android:padding="@dimen/_5sdp"
+                                        android:drawablePadding="@dimen/_3sdp"
+                                        android:textSize="@dimen/_16sdp"
+                                        android:layout_marginTop="@dimen/_3sdp"/>
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:text="Email"
                                         android:drawableStart="@drawable/email_id"
-                                        android:padding="5dp"
-                                        android:drawablePadding="5dp"
-                                        android:textStyle="bold"
-                                        android:textSize="16dp"
-                                        android:layout_marginTop="5dp"/>
+                                        android:padding="@dimen/_5sdp"
+                                        android:drawablePadding="@dimen/_3sdp"
+                                        android:textSize="@dimen/_16sdp"
+                                        android:layout_marginTop="@dimen/_3sdp"/>
 
                                 </LinearLayout>
 
                             </LinearLayout>
 
                             <TextView
-                                android:layout_marginTop="10dp"
-                                android:layout_marginRight="10dp"
-                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginBottom="@dimen/_10sdp"
+                                android:layout_marginRight="@dimen/_10sdp"
+                                android:layout_marginLeft="@dimen/_10sdp"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:text="Full Address"
                                 android:drawableStart="@drawable/address"
-                                android:padding="5dp"
-                                android:drawablePadding="5dp"/>
+                                android:padding="@dimen/_5sdp"
+                                android:drawablePadding="@dimen/_5sdp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/sc5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:backgroundTint="#FAB0B0"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="@dimen/_110sdp"
+                                    android:layout_height="@dimen/_110sdp"
+                                    android:layout_marginLeft="@dimen/_10sdp"
+                                    android:layout_marginTop="@dimen/_18sdp"
+                                    android:src="@drawable/ic_launcher_background"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginLeft="@dimen/_5sdp"
+                                    android:layout_marginRight="@dimen/_5sdp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Shop Name"
+                                        android:textStyle="bold"
+                                        android:textSize="@dimen/_20sdp"
+                                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Category"
+                                        android:drawableStart="@drawable/category"
+                                        android:padding="@dimen/_5sdp"
+                                        android:drawablePadding="@dimen/_3sdp"
+                                        android:textSize="@dimen/_16sdp"
+                                        android:layout_marginTop="@dimen/_8sdp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Mobile No"
+                                        android:drawableStart="@drawable/phone"
+                                        android:padding="@dimen/_5sdp"
+                                        android:drawablePadding="@dimen/_3sdp"
+                                        android:textSize="@dimen/_16sdp"
+                                        android:layout_marginTop="@dimen/_3sdp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Email"
+                                        android:drawableStart="@drawable/email_id"
+                                        android:padding="@dimen/_5sdp"
+                                        android:drawablePadding="@dimen/_3sdp"
+                                        android:textSize="@dimen/_16sdp"
+                                        android:layout_marginTop="@dimen/_3sdp"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginBottom="@dimen/_10sdp"
+                                android:layout_marginRight="@dimen/_10sdp"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Full Address"
+                                android:drawableStart="@drawable/address"
+                                android:padding="@dimen/_5sdp"
+                                android:drawablePadding="@dimen/_5sdp"/>
 
                         </LinearLayout>
 
